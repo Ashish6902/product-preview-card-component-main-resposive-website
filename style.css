@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root
+{
+    --Dark_cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very_dark_blue: hsl(212, 21%, 14%);
+    --Dark_grayish_blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body
+{
+    background-color: var(--Cream);
+}
+.container
+{
+    max-width: 600px;
+    max-height: 450px;
+    background-color: white;
+    margin: auto;
+    margin-top: 8rem;
+    border-radius: 10px;
+    position: relative;
+    
+}
+p{
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: var(--Dark_grayish_blue);
+    display: inline;
+        
+    margin-left: 0;
+}
+
+img{
+    float: left;
+    max-width: 300px;
+    max-height: 450px;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+h1
+{
+    font-family: 'Fraunces';
+    color: var(--Very_dark_blue);
+    margin-right: 2rem;
+    line-height: 1em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.price
+{
+    color: var(--Dark_cyan);
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.cancel_price
+{
+    position: absolute;
+    top: 19rem  ;
+}
+button.cta
+{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    height: 3rem;
+    width: 15rem;
+    text-align: center;
+}
+button.cta:hover{
+    background-color: hsl(158, 36%, 23%);
+}
+
+button.cta img{
+    align-items: center;
+}
